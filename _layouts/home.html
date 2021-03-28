@@ -1,0 +1,71 @@
+---
+layout: default
+---
+  {% include custom-head.html %}
+
+  <div class="home">
+    <h2 class="post-title">Taylor Hixson</h2>
+    Currently, Librarian for Geospatial Data Services at NYU Abu Dhabi. Previously, Resident Librarian for GIS at The University of Chicago Library. Graduate of the University of Tennessee’s School of Information Sciences. Interested in all things spatial.
+
+    These pages are a professional summary documenting some of my work throughout the past few years.
+
+  <!-- Use this if I ever want to create an about page again for nav bar but also have content on home  {% assign about = include.pages | where: 'name','about.md' %}
+    {{about}}
+    -->
+
+  <br><br>
+  <h3 class="post-title">Posts</h3>
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- for post in posts -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>

@@ -138,7 +138,7 @@ table td { border: 1px solid #777777; }
 /** Site header */
 .site-header { min-height: 55.95px; line-height: 54px; background: #fb24fb; background: linear-gradient(90deg, #fb24fb 0%, #5d71ff 51%, #1de917 100%, #00e2f4 100%, #00e2f4 100%); position: relative; }
 
-.site-title { font-size: 2rem; font-weight: 200; letter-spacing: 10px; margin-bottom: 0; float: left; font-style: oblique; text-transform: uppercase; }
+.site-title { font-size: 2rem; font-weight: 500; letter-spacing: 10px; margin-bottom: 0; float: left; font-style: oblique; text-transform: uppercase; }
 @media screen and (max-width: 600px) { .site-title { padding-right: 45px; } }
 .site-title, .site-title:visited { color: black; }
 
@@ -228,3 +228,5 @@ table td { border: 1px solid #777777; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 .svg-icon { color: #111111; }
+
+.svg-icon { color: #000000; }

@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Work Samples"
+title:  "Technical Writing Samples"
 date:   2020-09-25 9:53:39 +0400
 categories: jekyll update
 ---
-## Technical writing
 [QuicheGIS: Hub Lines, or Joining Points by a Line](https://docs.google.com/document/d/1nYEtuIOaXOVqnW6PT6fgtpwl0Z_FmWTR5RC8oEN75M4/edit?usp=sharing)
 
 [Creating, hosting, and publishing Leaflet maps with qgis2web and GitHub](https://github.com/taylorhixson/WF) (QGIS, Leaflet, Markdown)

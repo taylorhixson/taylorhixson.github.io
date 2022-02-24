@@ -15,5 +15,6 @@ I decided on personas as the output of the analysis in order for the library tea
 Currently, I am working with a colleague to turn this report into an academic article.
 
 ## Documents
+- Hixson, T. & Parrott, J., (2021) “Using UX Personas to Improve Library GIS and Data Services”, Weave: Journal of Library User Experience 4(2). doi: https://doi.org/10.3998/weaveux.221 (peer reviewed)
 - [NYUAD Faculty GIS Personas](/assets/gisFacPersonas19-20.pdf)
 - [Report](/assets/gisFacPersonasReport.pdf)

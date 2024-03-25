@@ -63,5 +63,5 @@ plugins:
 
 show_excerpts: false
 
-paginate: 5
+paginate: 10
 paginate_path: "/_posts/:num/"

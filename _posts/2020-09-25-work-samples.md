@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technical Writing Samples"
+title:  "Writing Samples"
 date:   2020-09-25 9:53:39 +0400
 categories: jekyll update
 ---

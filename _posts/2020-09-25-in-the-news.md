@@ -4,7 +4,7 @@ title:  "In the news"
 date:   2020-09-25 9:53:39 +0400
 categories: jekyll update
 ---
-### In the news
+
 “[Resident of the Month: Taylor Hixson](https://acrl.ala.org/residency/resident-of-the-month-taylor-hixson/),” ACRL Residency Interest Group. August 5, 2019.
 
 “[Alumni Q&A: Taylor Hixson, a librarian in the Middle East](https://www.sis.utk.edu/alumni-qa-taylor-hixson-librarian-middle-east),” UT Knoxville School of Information Sciences News. September 25, 2018.

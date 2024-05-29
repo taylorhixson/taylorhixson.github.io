@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ## About Taylor Hixson
-Currently, MBA Candidate at ESMT Berlin. Previously, Librarian for Geospatial Data Services at NYU Abu Dhabi Library and Resident Librarian for GIS at The University of Chicago Library. Graduate of the University of Tennessee’s School of Information Sciences. Occasionally making maps, always chasing street cats.
+Data librarian turned MBA. Previously, Librarian for Geospatial Data Services at NYU Abu Dhabi Library and Resident Librarian for GIS at The University of Chicago Library. Graduate of the University of Tennessee’s School of Information Sciences and ESMT Berlin's full-fime MBA. Occasionally making maps, always chasing cats.
 
 [Download my CV](/assets/Hixson_CV2024.pdf)
 
